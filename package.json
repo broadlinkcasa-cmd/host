@@ -1,0 +1,11 @@
+{
+  "name": "lm-render-proxy",
+  "private": true,
+  "type": "module",
+  "main": "server-render.js",
+  "scripts": { "start": "node server-render.js" },
+  "dependencies": {
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2"
+  }
+}
